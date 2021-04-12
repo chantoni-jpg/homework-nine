@@ -1,0 +1,100 @@
+.home {
+  max-width: 1280px;
+  min-height: 304px;
+}
+
+.title {
+  h1 {
+    display: flex;
+    margin-left: 650px;
+    margin-top: 50px;
+    font-size: 60px;
+  }
+
+  p {
+    display: flex;
+    margin-left: 390px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+
+.photos {
+  max-width: 1280px;
+  min-height: 304px;
+  // background-color: aqua;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  // margin-right: 80px;
+  // background-color: pink;
+  // flex-wrap: wrap;
+
+  .photo-one {
+    height: 304px;
+    width: 236px;
+    background-color: cadetblue;
+    margin-right: 50px;
+    background-image: url(../images/5-Days-In-Kyoto-Itinerary-Higashiyama-District.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .photo-two {
+    height: 304px;
+    width: 236px;
+    background-color: cadetblue;
+    margin-right: 50px;
+    background-image: url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .photo-three {
+    height: 304px;
+    width: 236px;
+    background-color: cadetblue;
+    margin-right: 50px;
+    background-image: url(../images/kyoto-japan-26.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .photo-one h1 {
+    color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-family: Proxima;
+    font-size: 60px;
+  }
+  .photo-one h2 {
+    color: white;
+    padding-left: 75px;
+    font-family: Proxima;
+  }
+  .photo-two h1 {
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: Proxima;
+    font-size: 60px;
+  }
+  .photo-two h2 {
+    color: white;
+    padding-left: 75px;
+    font-family: Proxima;
+  }
+  .photo-three h1 {
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: Proxima;
+    font-size: 60px;
+  }
+  .photo-three h2 {
+    color: white;
+    padding-left: 75px;
+    font-family: Proxima;
+  }
+}

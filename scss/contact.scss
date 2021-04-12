@@ -1,0 +1,60 @@
+.contact {
+  max-width: 980px;
+  height: 100vh;
+  //background-color: aqua;
+  margin: 0 auto;
+  h1 {
+    font-size: 30px;
+    font-family: "Proxima";
+    text-decoration: underline;
+    //padding-left: 270px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+form {
+  width: 529px;
+  height: 522px;
+  left: 500px;
+  bottom: 450px;
+  position: relative;
+}
+.promo-button {
+  padding: 10px 24px;
+  //margin-left: 10px;
+  background-color: black;
+  border-radius: 0px;
+  color: white;
+  border: 2px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.map {
+  max-width: 400px;
+  height: 442px;
+  //margin-left: 250px;
+}
+.map-one {
+  background-image: url(../images/JAPAN.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  position: relative;
+  top: 15px;
+  font-size: 18px;
+  font-family: "Gill";
+}

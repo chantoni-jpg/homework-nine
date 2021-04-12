@@ -1,0 +1,44 @@
+.hero {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-content {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-hero-image {
+  background-image: url(../images/15biz-JAPAN-ECON-videoSixteenByNineJumbo1600.jpg);
+}
+.home-hero-image {
+  background-image: url(../images/home-hero.jpg);
+}
+.products-hero-image {
+  background-image: url(../images/960x0.jpg);
+}
+.contact-hero-image {
+  background-image: url(../images/japan6.jpg);
+}
+.hero-content h1 {
+  color: white;
+}
+nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 20px auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 2px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
